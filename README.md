@@ -1,20 +1,17 @@
-# AI-brochure-generator (Ollama & Gradio)
+# AI-Air-Assistant-Agent (Ollama & Gradio)
 
-An intelligent and automated tool to convert company website content into professional business and promotional brochures using Large Language Models (LLMs).
+AirAssistant Agent is an intelligent, automated airline assistant designed to help users retrieve flight information, check prices, and get status updates dynamically using AI.
 
 ## Key Features
-- Secure Environment Management: Utilizing .env files to prevent API key exposure.
-- Unified Client Architecture: Demonstrating how a single client interface (OpenAI Client) can communicate with different AI backends.
-- Local LLM Support: Running and testing prompts completely offline on your own machine using Ollama.
+- **Intelligent Tool Calling:** Uses LLMs to autonomously determine when to query databases for flight information.
+- **Dynamic Interaction:** Provides real-time answers based on custom database tools.
+- **User-Friendly Interface:** Built with Gradio to provide a clean, chat-based experience for end-users.
+- **Secure Architecture:** Implements environment variable management to keep API keys secure.
 
 ## Prerequisites
-To run this notebook, you will need:
-- Python 3.11.3
-- Ollama installed and running (for the local model section)
-- **Smart Web Scraping:** Automatically crawls the website and gathers textual information.
-- **AI-Powered Filtering:** Selects the most relevant pages (e.g., About Us, Products, Investors) using an LLM.
-- **Structured Content Generation:** Creates well-structured and standard business brochures.
-- **Easy User Interface:** Features a simple web-based UI powered by Gradio.
+To run this project, ensure you have the following installed:
+- Python 3.9+
+- `pip install gradio langchain openai python-dotenv`
 
 ## Getting Started
 - Clone the repository.
